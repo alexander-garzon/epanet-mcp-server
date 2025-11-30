@@ -1,0 +1,38 @@
+{
+  "title": "The EPANET MCP server [Software]", 
+  "creators": [
+    {
+      "name": "Zanutto, Dennis",
+      "affiliation": "KWR Water Research Institute, Politecnico di Milano",
+      "orcid": "0000-0002-1997-3350"
+    },
+    {
+      "name": "Michalopoulos, Christos",
+      "affiliation": "KWR Water Research Institute, National Technical University of Athens",
+      "orcid": "0009-0004-5322-1509"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Savić, Dragan",
+      "affiliation": "KWR Water Research Institute, Centre for Water Systems at University of Exeter",
+      "orcid": "0000-0001-9567-9041",
+      "type": "Supervisor"
+    }
+  ],
+  "keywords": [
+    "EPANET",
+    "MCP",
+    "Water Distribution",
+    "Hydraulic Modeling",
+    "Server"
+  ],
+  "license": {
+    "id": "GPL-3.0"
+  },
+  "upload_type": "software",
+  "description": "The EPANET Model Context Protocol (MCP) server allows to run complete hydraulic simulations, retrieving system information and results through a conversational interface and is compatible with all major chatbot platforms.",
+  "version": "0.1.0",
+  "access_right": "open",
+  "language": "eng"
+}

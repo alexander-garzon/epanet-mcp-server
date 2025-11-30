@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the paper below. If you specifically use the code, data, or software package, please also cite the Zenodo repository."
+title: "The EPANET MCP server"
+authors:
+  - family-names: Zanutto
+    given-names: Dennis
+    name-suffix: Corresponding author
+    affiliation: KWR Water Research Institute, Politecnico di Milano
+    orcid: "https://orcid.org/0000-0002-1997-3350"
+  - family-names: Michalopoulos
+    given-names: Christos
+    affiliation: KWR Water Research Institute, National Technical University of Athens
+    orcid: "https://orcid.org/0009-0004-5322-1509"
+type: software
+license: GPL-3.0
+repository-code: "https://github.com/KWR-Water/epanet-mcp-server"
+version: 0.1.0
+date-released: 2025-11-30

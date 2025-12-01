@@ -5,14 +5,29 @@ authors:
   - family-names: Zanutto
     given-names: Dennis
     name-suffix: Corresponding author
-    affiliation: KWR Water Research Institute, Politecnico di Milano
+    affiliation: KWR Water Research Institute; Politecnico di Milano
     orcid: "https://orcid.org/0000-0002-1997-3350"
   - family-names: Michalopoulos
     given-names: Christos
-    affiliation: KWR Water Research Institute, National Technical University of Athens
+    affiliation: KWR Water Research Institute; National Technical University of Athens
     orcid: "https://orcid.org/0009-0004-5322-1509"
 type: software
 license: GPL-3.0
 repository-code: "https://github.com/KWR-Water/epanet-mcp-server"
 version: 0.1.0
 date-released: 2025-11-30
+
+references:
+  - type: software
+    title: "The EPANET MCP server [Software]"
+    authors:
+      - family-names: Zanutto
+        given-names: Dennis
+        orcid: "https://orcid.org/0000-0002-1997-3350"
+      - family-names: Michalopoulos
+        given-names: Christos
+        orcid: "https://orcid.org/0009-0004-5322-1509"
+    version: 0.1.0
+    date-released: 2025-11-30
+    doi: "10.5281/zenodo.17771952"
+    notes: "Use this citation if you explicitly reference the code, data, or software package."

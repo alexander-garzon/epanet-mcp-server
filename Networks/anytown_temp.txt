@@ -1,4 +1,4 @@
-  Page 1                                    Tue Feb 17 14:40:45 2026
+  Page 1                                    Tue Feb 17 12:00:04 2026
 
   ******************************************************************
   *                           E P A N E T                          *
@@ -7,6 +7,7 @@
   *                         Version 2.2                            *
   ******************************************************************
   
-  Analysis begun Tue Feb 17 14:40:45 2026
+  Error 201: syntax error  in [EMITTERS] section:
+  [LEAKAGE]
 
-  Analysis ended Tue Feb 17 14:40:45 2026
+  Error 200: one or more errors in input file

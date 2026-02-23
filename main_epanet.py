@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 from mcp.server.fastmcp import FastMCP
 from mcp.types import ImageContent
 from epyt import epanet
+import matplotlib
 from models import Intervention  # Import your new models
 
 # --- Configuration ---
@@ -163,7 +164,32 @@ def modify_network(file_name: str, interventions: list[Intervention]) -> str:
         # This will now catch specific Pydantic errors if they occur
         return f"Modification failed: {str(e)}"
     
+@mcp.tool()
+def plot_network(file_name:str) -> ImageContent:
+    """Generates a visual representation of the network layout."""
+    #load network
+    full_path = _get_full_path(file_name)
+    network = epanet(full_path, display_msg=False, display_warnings=False)
+    matplotlib.use('Agg')
+    network.plot()
+
+     # Let epanet plot to whatever figure it creates
+    network.plot()
     
+    # Grab the CURRENT figure (whatever epanet just drew into)
+    fig = plt.gcf()
+    
+    buf = io.BytesIO()
+    fig.savefig(buf, format='png', bbox_inches='tight')
+    plt.close(fig)
+    buf.seek(0)
+
+    return ImageContent(
+        type="image",       
+        data=base64.b64encode(buf.read()).decode('utf-8'),
+        mimeType="image/png"
+    )
+
 @mcp.tool()
 def plot_pressures(file_name: str, low_threshold: float = 20.0, only_critical: bool = False) -> list:
     """

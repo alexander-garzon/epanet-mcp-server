@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "epyt>=1.2.2",
     "httpx>=0.28.1",
     "mcp[cli]>=1.14.1",
 ]

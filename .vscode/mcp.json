@@ -1,9 +1,10 @@
 {
-	"servers": {
-		"epanet_mcp": {
-			"type": "stdio",
-			"command": "C:/software/envs/mcp_server/python.exe",
-			"args": ["-m","main_epanet"]
-			//"cwd": "C:/Users/xrism/Documents/GitHub/MCP-Server-Exmample/models",
-		}
-}}
+    "servers": {
+        "epanet_mcp": {
+            "type": "stdio",
+            "command": "uv",
+            "args": ["run", "main_epanet.py"]
+            //"cwd": "C:/Users/xrism/Documents/GitHub/MCP-Server-Exmample/models",
+        }
+    }
+}

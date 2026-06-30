@@ -1,6 +1,6 @@
 [project]
 name = "mcp-server-epanet"
-version = "0.1.0"
+version = "0.2.0"
 description = "A Model Context Protocol server providing tools to simulate and analyse EPANET water distribution networks"
 readme = "README.md"
 requires-python = ">=3.11"

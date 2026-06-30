@@ -3,7 +3,7 @@
         "epanet_mcp": {
             "type": "stdio",
             "command": "uv",
-            "args": ["run", "main_epanet.py"]
+            "args": ["run", "mcp-server-epanet"]
         }
     }
 }

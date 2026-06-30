@@ -1,4 +1,4 @@
-# mcp-server-epanet: An EPANET MCP server
+# KWR's EPANET MCP server
 
 ## Overview
 
@@ -6,8 +6,38 @@ A Model Context Protocol server for EPANET water distribution network simulation
 
 Please note that mcp-server-epanet is currently in early development. The functionality and available tools are subject to change and expansion as we continue to develop and improve the server.
 
-### Tools
+## Publication
 
+This work was presented at the **16th International Conference on Hydroinformatics (HIC 2026)**, Zaragoza, Spain, June 22–26, 2026.
+
+If you use this software in your research, please cite the conference paper:
+
+```bibtex
+@inproceedings{zanutto2026epanetmcp,
+  title     = {Conversational Hydraulic Modelling: An Open-source Model Context Protocol Server for {EPANET}},
+  author    = {Zanutto, Dennis and Michalopoulos, Christos and Savi\'{c}, Dragan},
+  booktitle = {TOADD},
+  year      = {2026},
+  address   = {Zaragoza, Spain},
+  doi = {TOADD},
+}
+```
+
+If you specifically reference the code or software package, also cite the Zenodo release:
+
+```bibtex
+@software{zanutto2026epanetmcp_software,
+  title   = {The {EPANET} {MCP} server},
+  author  = {Zanutto, Dennis and Michalopoulos, Christos},
+  year    = {2025},
+  doi     = {10.5281/zenodo.17771952},
+  version = {Concept (all versions)},
+}
+```
+
+## Tools
+
+ TODO
 <!-- Tools will be documented here -->
 
 ## Installation
@@ -135,7 +165,3 @@ If you are doing local development, there are two ways to test your changes:
   }
 }
 ```
-
-## License
-
-This MCP server is licensed under the MIT License. This means you are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License. For more details, please see the LICENSE file in the project repository.

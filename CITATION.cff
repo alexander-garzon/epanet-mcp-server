@@ -14,8 +14,26 @@ authors:
 type: software
 license: GPL-3.0
 repository-code: "https://github.com/KWR-Water/epanet-mcp-server"
-version: 0.1.0
+version: "Concept (all versions)"
 date-released: 2025-11-30
+
+preferred-citation:
+  type: conference-paper
+  title: "Conversational Hydraulic Modelling: An Open-source Model Context Protocol Server for EPANET"
+  authors:
+    - family-names: Zanutto
+      given-names: Dennis
+    - family-names: Michalopoulos
+      given-names: Christos
+    - family-names: Savić
+      given-names: Dragan
+  year: 2026
+  conference:
+    name: "16th International Conference on Hydroinformatics (HIC 2026)"
+    city: Zaragoza
+    country: ES
+    date-start: 2026-06-22
+    date-end: 2026-06-26
 
 references:
   - type: software
@@ -27,7 +45,7 @@ references:
       - family-names: Michalopoulos
         given-names: Christos
         orcid: "https://orcid.org/0009-0004-5322-1509"
-    version: 0.1.0
+    version: "Concept (all versions)"
     date-released: 2025-11-30
     doi: "10.5281/zenodo.17771952"
     notes: "Use this citation if you explicitly reference the code, data, or software package."

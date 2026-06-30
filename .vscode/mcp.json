@@ -1,0 +1,9 @@
+{
+    "servers": {
+        "epanet_mcp": {
+            "type": "stdio",
+            "command": "uv",
+            "args": ["run", "mcp-server-epanet"]
+        }
+    }
+}

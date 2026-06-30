@@ -1,38 +1,49 @@
 {
-  "title": "The EPANET MCP server [Software]", 
+  "title": "The EPANET MCP server [Software]",
+  "description": "The EPANET Model Context Protocol (MCP) server allows to run complete hydraulic simulations, retrieving system information and results through a conversational interface and is compatible with all major chatbot platforms.",
+  "upload_type": "software",
+  "version": "0.1.0",
   "creators": [
     {
+      "affiliation": "KWR Water Research Institute; Politecnico di Milano",
       "name": "Zanutto, Dennis",
-      "affiliation": "KWR Water Research Institute, Politecnico di Milano",
-      "orcid": "0000-0002-1997-3350"
+      "orcid": "0000-0002-1997-3350",
+      "type": "ContactPerson"
     },
     {
+      "affiliation": "KWR Water Research Institute; National Technical University of Athens",
       "name": "Michalopoulos, Christos",
-      "affiliation": "KWR Water Research Institute, National Technical University of Athens",
-      "orcid": "0009-0004-5322-1509"
-    }
-  ],
-  "contributors": [
+      "orcid": "0009-0004-5322-1509",
+      "type": "Researcher"
+    },
     {
+      "affiliation": "KWR Water Research Institute; Centre for Water Systems at University of Exeter",
       "name": "Savić, Dragan",
-      "affiliation": "KWR Water Research Institute, Centre for Water Systems at University of Exeter",
       "orcid": "0000-0001-9567-9041",
       "type": "Supervisor"
     }
   ],
-  "keywords": [
-    "EPANET",
-    "MCP",
-    "Water Distribution",
-    "Hydraulic Modeling",
-    "Server"
-  ],
+
+  "access_right": "open",
   "license": {
     "id": "GPL-3.0"
   },
-  "upload_type": "software",
-  "description": "The EPANET Model Context Protocol (MCP) server allows to run complete hydraulic simulations, retrieving system information and results through a conversational interface and is compatible with all major chatbot platforms.",
-  "version": "0.1.0",
-  "access_right": "open",
-  "language": "eng"
+  "keywords": [
+    "python",
+    "epanet",
+    "mcp",
+    "model-context-protocol",
+    "water-distribution-networks",
+    "hydraulic-modelling",
+    "llm",
+    "open-source"
+  ],
+  "language": "eng",
+
+  "conference_title": "16th International Conference on Hydroinformatics",
+  "conference_acronym": "HIC 2026",
+  "conference_dates": "22-26 June 2026",
+  "conference_place": "Zaragoza, Spain",
+  "conference_session": "",
+  "conference_session_part": ""
 }

@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+.DS_Store
+
+# Epyt stuff
+en[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]
+*_temp.txt
+*_temp.inp
+Networks/*.txt

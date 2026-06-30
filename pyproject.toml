@@ -1,10 +1,45 @@
 [project]
-name = "epanet-mcp-server"
-version = "0.1.0"
-description = "Add your description here"
+name = "mcp-server-epanet"
+version = "0.2.0"
+description = "A Model Context Protocol server providing tools to simulate and analyse EPANET water distribution networks"
 readme = "README.md"
 requires-python = ">=3.11"
+authors = [{ name = "Dennis Zanutto", email = "dennis.zanutto@gmail.com" }]
+keywords = ["epanet", "mcp", "water", "simulation", "llm"]
+license = { text = "GPL-3.0" }
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+]
 dependencies = [
+    "click>=8.1.7",
+    "epyt>=1.2.2",
     "httpx>=0.28.1",
     "mcp[cli]>=1.14.1",
 ]
+
+[project.scripts]
+mcp-server-epanet = "mcp_server_epanet:main"
+
+[build-system]
+requires = ["uv_build>=0.7.8,<0.8"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.407",
+    "ruff>=0.7.3",
+    "pytest>=8.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+
+[tool.ruff]
+line-length = 100

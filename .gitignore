@@ -10,4 +10,9 @@ wheels/
 .venv
 
 .DS_Store
-.vscode/mcp.json
+
+# Epyt stuff
+en[0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z][0-9A-Za-z]
+*_temp.txt
+*_temp.inp
+Networks/*.txt

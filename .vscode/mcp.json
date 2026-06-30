@@ -4,7 +4,6 @@
             "type": "stdio",
             "command": "uv",
             "args": ["run", "main_epanet.py"]
-            //"cwd": "C:/Users/xrism/Documents/GitHub/MCP-Server-Exmample/models",
         }
     }
 }
